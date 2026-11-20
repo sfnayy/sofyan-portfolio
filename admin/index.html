@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#07080c">
+  <meta name="color-scheme" content="dark">
+  <title>Admin Portfolio</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Menu admin">
+      <div class="sb-brand">
+        <span class="brand-mark">S</span>
+        <div><strong>Admin Portfolio</strong><small>Kelola konten situs</small></div>
+      </div>
+      <nav class="sb-nav" id="sbNav"></nav>
+      <div class="sb-foot">
+        <div class="gh-pill" id="ghPill"></div>
+        <a class="sb-link" href="/" target="_blank" rel="noopener">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+          Lihat situs publik
+        </a>
+      </div>
+    </aside>
+    <div class="sb-overlay" id="sbOverlay"></div>
+
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn sb-toggle" id="sbToggle" type="button" aria-label="Buka menu">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+        <div class="tb-title" id="tbTitle">Dashboard</div>
+        <div class="tb-status" id="tbStatus"></div>
+        <div class="tb-actions">
+          <button class="btn btn-ghost btn-sm" id="btnPreview" type="button" title="Lihat draft di situs">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span>Pratinjau</span>
+          </button>
+          <button class="btn btn-primary btn-sm" id="btnPublish" type="button">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            <span>Publikasikan</span>
+          </button>
+        </div>
+      </header>
+      <div class="banner" id="banner" hidden></div>
+      <main class="content" id="content">
+        <div class="loading"><span class="spinner"></span> Memuat data portfolio…</div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Drawer edit item -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close></div>
+    <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+      <header class="drawer-head">
+        <div><small id="drawerKicker">Edit</small><h3 id="drawerTitle">Item</h3></div>
+        <button class="icon-btn" type="button" data-close aria-label="Tutup">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </header>
+      <div class="drawer-body" id="drawerBody"></div>
+      <footer class="drawer-foot">
+        <button class="btn btn-danger-ghost btn-sm" id="drawerDelete" type="button">Hapus</button>
+        <span class="drawer-hint">Perubahan tersimpan otomatis sebagai draft</span>
+        <button class="btn btn-primary btn-sm" type="button" data-close>Selesai</button>
+      </footer>
+    </aside>
+  </div>
+
+  <!-- Dialog -->
+  <div class="dialog" id="dialog" aria-hidden="true">
+    <div class="dialog-backdrop"></div>
+    <div class="dialog-panel" role="alertdialog" aria-modal="true" aria-labelledby="dialogTitle">
+      <div class="dialog-ic" id="dialogIc"></div>
+      <h3 id="dialogTitle"></h3>
+      <div class="dialog-msg" id="dialogMsg"></div>
+      <div class="dialog-actions" id="dialogActions"></div>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="/assets/js/shared.js"></script>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

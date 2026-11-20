@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "version": 1,
+    "updatedAt": "2026-11-20T00:00:00.000Z"
+  },
+  "settings": {
+    "accent": "#8b7bff",
+    "accent2": "#2dd4bf",
+    "githubUsername": "sfnayy",
+    "showGithub": true,
+    "formEndpoint": "",
+    "siteUrl": "",
+    "timezone": "Asia/Jakarta",
+    "timezoneLabel": "WIB"
+  },
+  "profile": {
+    "name": "Sofyan Adiel Muliansyah",
+    "nickname": "Sofyan",
+    "greeting": "Halo, saya",
+    "roles": [
+      "Mahasiswa Teknik Informatika",
+      "Full-Stack Web Developer",
+      "UI Enthusiast",
+      "Machine Learning Explorer"
+    ],
+    "tagline": "Saya membangun aplikasi web yang cepat, rapi, dan bermanfaat — dari antarmuka yang nyaman dipakai hingga backend dan integrasi pembayaran.",
+    "avatar": "assets/img/profile.jpg",
+    "cv": "",
+    "university": "Universitas Pelita Bangsa",
+    "major": "S1 Teknik Informatika",
+    "semester": "",
+    "location": "Bekasi, Indonesia",
+    "status": "Terbuka untuk magang & kolaborasi",
+    "available": true,
+    "email": "",
+    "whatsapp": ""
+  },
+  "about": {
+    "paragraphs": [
+      "Saya Sofyan Adiel Muliansyah, mahasiswa Teknik Informatika di Universitas Pelita Bangsa yang senang mengubah ide menjadi produk digital yang benar-benar dipakai orang.",
+      "Fokus utama saya adalah pengembangan web full-stack: merancang antarmuka yang bersih dengan React dan Tailwind CSS, lalu membangun backend dengan Node.js, Express, PHP, dan Firebase — termasuk autentikasi multi-role dan integrasi payment gateway.",
+      "Di luar itu, saya juga mengeksplorasi pengembangan aplikasi Android dan machine learning untuk pengolahan citra. Bagi saya, cara terbaik untuk belajar adalah dengan membangun, jadi setiap tugas kuliah saya perlakukan sebagai proyek nyata."
+    ],
+    "learning": [
+      "Next.js App Router",
+      "TypeScript",
+      "Machine Learning",
+      "UI/UX Design"
+    ],
+    "interests": [
+      "Web Development",
+      "Sistem Informasi Bisnis",
+      "Computer Vision",
+      "Open Source",
+      "Rubik's Cube"
+    ]
+  },
+  "softSkills": [
+    "Problem Solving",
+    "Kerja Tim",
+    "Komunikasi",
+    "Manajemen Waktu",
+    "Cepat Belajar",
+    "Berpikir Kritis"
+  ],
+  "services": [
+    {
+      "icon": "layout",
+      "title": "Web Development",
+      "description": "Membangun website dan aplikasi web responsif dengan React, Next.js, Tailwind CSS, dan PHP."
+    },
+    {
+      "icon": "server",
+      "title": "Backend & API",
+      "description": "Merancang REST API, autentikasi multi-role, database, hingga integrasi payment gateway Midtrans."
+    },
+    {
+      "icon": "cpu",
+      "title": "Mobile & AI",
+      "description": "Mengeksplorasi aplikasi Android serta model deep learning untuk klasifikasi citra."
+    }
+  ],
+  "stats": [],
+  "skills": [
+    { "name": "HTML", "icon": "html5", "category": "Frontend", "level": 90 },
+    { "name": "CSS", "icon": "css3", "category": "Frontend", "level": 85 },
+    { "name": "JavaScript", "icon": "javascript", "category": "Frontend", "level": 78 },
+    { "name": "TypeScript", "icon": "typescript", "category": "Frontend", "level": 60 },
+    { "name": "React", "icon": "react", "category": "Frontend", "level": 72 },
+    { "name": "Next.js", "icon": "nextjs", "category": "Frontend", "level": 58 },
+    { "name": "Tailwind CSS", "icon": "tailwindcss", "category": "Frontend", "level": 80 },
+    { "name": "Vite", "icon": "vitejs", "category": "Frontend", "level": 65 },
+    { "name": "Node.js", "icon": "nodejs", "category": "Backend", "level": 68 },
+    { "name": "Express", "icon": "express", "category": "Backend", "level": 68 },
+    { "name": "PHP", "icon": "php", "category": "Backend", "level": 75 },
+    { "name": "MySQL", "icon": "mysql", "category": "Backend", "level": 70 },
+    { "name": "Firebase", "icon": "firebase", "category": "Backend", "level": 62 },
+    { "name": "Java", "icon": "java", "category": "Mobile", "level": 60 },
+    { "name": "Android", "icon": "android", "category": "Mobile", "level": 55 },
+    { "name": "Python", "icon": "python", "category": "AI & Data", "level": 70 },
+    { "name": "TensorFlow", "icon": "tensorflow", "category": "AI & Data", "level": 50 },
+    { "name": "Jupyter", "icon": "jupyter", "category": "AI & Data", "level": 60 },
+    { "name": "Streamlit", "icon": "streamlit", "category": "AI & Data", "level": 55 },
+    { "name": "Git", "icon": "git", "category": "Tools", "level": 78 },
+    { "name": "GitHub", "icon": "github", "category": "Tools", "level": 82 },
+    { "name": "VS Code", "icon": "vscode", "category": "Tools", "level": 88 },
+    { "name": "Vercel", "icon": "vercel", "category": "Tools", "level": 75 },
+    { "name": "Android Studio", "icon": "androidstudio", "category": "Tools", "level": 55 }
+  ],
+  "projects": [
+    {
+      "id": "netbyte-wifi-billing",
+      "title": "NetByte WiFi Billing System",
+      "category": "Web App",
+      "date": "2026-06",
+      "featured": true,
+      "description": "Aplikasi web full-stack untuk mengelola tagihan, paket internet, dan pelanggan pada layanan WiFi RT/RW, terintegrasi dengan payment gateway Midtrans.",
+      "longDescription": "NetByte WiFi Billing System membantu penyedia WiFi RT/RW atau ISP skala kecil mengelola seluruh proses bisnisnya dalam satu dashboard: dari pendaftaran pelanggan, pengaturan paket, langganan dan jatuh tempo, hingga pembayaran online.\n\nAplikasi memiliki dua peran. Admin memantau pendapatan, pengguna aktif, dan transaksi lewat grafik dashboard, sedangkan pelanggan dapat melihat status langganan dan membayar tagihan langsung melalui Midtrans Snap (e-wallet, virtual account, kartu kredit, dan minimarket).",
+      "features": [
+        "Dashboard admin dengan grafik pendapatan bulanan (Recharts)",
+        "Manajemen pelanggan, paket WiFi, dan langganan beserta tanggal jatuh tempo",
+        "Pembayaran online via Midtrans Snap",
+        "Riwayat transaksi dengan filter status dan unduh invoice PDF (jsPDF)",
+        "Autentikasi dan hak akses berbasis peran (Admin & Pelanggan)"
+      ],
+      "tags": ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Firebase", "Midtrans"],
+      "image": "",
+      "demo": "https://billing-wifi-delta.vercel.app",
+      "repo": "https://github.com/sfnayy/billing-wifi",
+      "video": "",
+      "hidden": false
+    },
+    {
+      "id": "rubik-timer",
+      "title": "Rubik Timer",
+      "category": "Web App",
+      "date": "2026-01",
+      "featured": true,
+      "description": "Aplikasi web untuk mencatat dan mengelola waktu penyelesaian Rubik's Cube, dibangun dengan PHP OOP, struktur MVC sederhana, dan sistem login multi-role.",
+      "longDescription": "Rubik Timer adalah proyek UAS mata kuliah Pemrograman Web. Aplikasi ini menerapkan konsep Object Oriented Programming, pemrograman modular, serta routing menggunakan .htaccess.\n\nPengguna dapat mencatat waktu solve, melihat statistik sederhana, dan mengelola datanya sendiri, sementara admin memiliki akses penuh untuk mengelola data seluruh pengguna. Antarmuka dirancang mobile-first agar nyaman dipakai di ponsel.",
+      "features": [
+        "Autentikasi login & register dengan dua peran: Admin dan User",
+        "CRUD data waktu solve lengkap dengan pencarian dan pagination",
+        "Dashboard statistik sederhana untuk setiap pengguna",
+        "Routing rapi menggunakan .htaccess dan struktur MVC",
+        "Desain responsif mobile-first"
+      ],
+      "tags": ["PHP", "MySQL", "OOP", "MVC", "CSS"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/sfnayy/rubik-timer",
+      "video": "",
+      "hidden": false
+    },
+    {
+      "id": "plant-disease-detection",
+      "title": "Plant Disease Detection",
+      "category": "AI / Machine Learning",
+      "date": "2026-06",
+      "featured": false,
+      "description": "Aplikasi pendeteksi penyakit tanaman dari foto daun menggunakan model deep learning TensorFlow, dengan antarmuka web interaktif berbasis Streamlit.",
+      "longDescription": "Proyek UAS Pengolahan Citra Digital. Model klasifikasi citra dilatih menggunakan TensorFlow di Jupyter Notebook, lalu disajikan melalui aplikasi Streamlit sehingga pengguna cukup mengunggah foto daun untuk mendapatkan prediksi jenis penyakitnya.",
+      "features": [
+        "Pelatihan dan pengujian model klasifikasi citra di Jupyter Notebook",
+        "Prediksi penyakit dari foto daun yang diunggah pengguna",
+        "Antarmuka web interaktif dengan Streamlit"
+      ],
+      "tags": ["Python", "TensorFlow", "Streamlit", "Jupyter"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/sfnayy/Tugas-UAS-pencit-fasha",
+      "video": "",
+      "hidden": false
+    },
+    {
+      "id": "sofcurrency",
+      "title": "SofCurrency — Aplikasi Android",
+      "category": "Mobile App",
+      "date": "2026-02",
+      "featured": false,
+      "description": "Aplikasi Android seputar mata uang yang dirancang lengkap mulai dari storyboard, mockup, hingga UI final, lalu diimplementasikan dengan Java dan Gradle.",
+      "longDescription": "SofCurrency dikembangkan melalui proses desain yang runtut: menyusun storyboard, membuat mockup, lalu menyempurnakan UI sebelum diimplementasikan di Android Studio. Video demo aplikasi tersedia di YouTube.",
+      "features": [
+        "Proses desain dari storyboard dan mockup hingga UI final",
+        "Implementasi native Android dengan Java",
+        "Video demo aplikasi"
+      ],
+      "tags": ["Java", "Android", "Android Studio"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/sfnayy/appsofcurrency",
+      "video": "https://youtube.com/shorts/Cw_4d9zs1PY",
+      "hidden": false
+    },
+    {
+      "id": "praktikum-pemrograman-web",
+      "title": "Praktikum Pemrograman Web (Lab 1–11)",
+      "category": "Web App",
+      "date": "2025-12",
+      "featured": false,
+      "description": "Rangkaian 11 praktikum Pemrograman Web: dari HTML & CSS dasar, layout, hingga PHP OOP, CRUD artikel, autentikasi, dan manajemen session.",
+      "longDescription": "Kumpulan praktikum yang saya dokumentasikan langkah demi langkah di GitHub. Materinya berkembang dari struktur HTML dan styling CSS, menuju aplikasi PHP berbasis OOP dengan CRUD, routing, hingga fitur keamanan seperti login dengan password hashing dan proteksi halaman menggunakan session.",
+      "features": [
+        "Dasar HTML, CSS, dan layout responsif",
+        "PHP OOP, modularisasi, dan CRUD artikel",
+        "Login dengan password hashing dan manajemen session",
+        "Dokumentasi tiap praktikum lengkap dengan tangkapan layar"
+      ],
+      "tags": ["HTML", "CSS", "PHP", "MySQL"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/sfnayy/Lab11Web",
+      "video": "",
+      "hidden": false
+    },
+    {
+      "id": "sewa-villa",
+      "title": "Sistem Sewa Villa",
+      "category": "Program",
+      "date": "2025-12",
+      "featured": false,
+      "description": "Program Python sederhana untuk mengelola proses penyewaan villa, sebagai latihan logika pemrograman dan struktur data.",
+      "longDescription": "Program berbasis terminal yang ditulis dengan Python untuk mensimulasikan proses penyewaan villa. Proyek ini menjadi latihan menerapkan percabangan, perulangan, fungsi, dan struktur data dalam kasus nyata.",
+      "features": [
+        "Alur penyewaan villa berbasis menu di terminal",
+        "Penerapan fungsi, percabangan, dan perulangan"
+      ],
+      "tags": ["Python"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/sfnayy/sewavilla",
+      "video": "",
+      "hidden": false
+    }
+  ],
+  "certificates": [],
+  "experience": [],
+  "education": [
+    {
+      "school": "Universitas Pelita Bangsa",
+      "degree": "Sarjana (S1)",
+      "major": "Teknik Informatika",
+      "start": "",
+      "end": "",
+      "gpa": "",
+      "description": "Mendalami rekayasa perangkat lunak, pemrograman web dan mobile, basis data, interaksi manusia dan komputer, serta pengolahan citra digital.",
+      "points": [
+        "Pemrograman Web — proyek UAS Rubik Timer (PHP OOP & MVC)",
+        "Pengolahan Citra Digital — deteksi penyakit tanaman dengan TensorFlow",
+        "Pemrograman Mobile — aplikasi Android SofCurrency"
+      ]
+    }
+  ],
+  "socials": [
+    { "platform": "github", "url": "https://github.com/sfnayy", "label": "GitHub" }
+  ]
+}

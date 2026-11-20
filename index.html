@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sofyan Adiel Muliansyah — Portfolio</title>
+  <meta name="description" content="Portfolio Sofyan Adiel Muliansyah, mahasiswa Teknik Informatika Universitas Pelita Bangsa. Full-stack web developer: proyek, skill, sertifikat, dan pengalaman.">
+  <meta name="author" content="Sofyan Adiel Muliansyah">
+  <meta name="theme-color" content="#07080c">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sofyan Adiel Muliansyah — Portfolio">
+  <meta property="og:description" content="Mahasiswa Teknik Informatika Universitas Pelita Bangsa · Full-Stack Web Developer.">
+  <meta property="og:image" content="/assets/img/profile.jpg">
+  <meta property="og:locale" content="id_ID">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sofyan Adiel Muliansyah",
+    "jobTitle": "Mahasiswa Teknik Informatika",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Universitas Pelita Bangsa" },
+    "sameAs": ["https://github.com/sfnayy"]
+  }
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <!-- Latar belakang -->
+  <div class="bg-fx" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="bg-noise"></div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <div class="preview-bar" id="previewBar" hidden>
+    <span>Mode pratinjau: kamu sedang melihat draft dari panel admin, belum dipublikasikan.</span>
+    <a href="/admin/">Kembali ke Admin</a>
+  </div>
+
+  <!-- Navigasi -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Beranda">
+        <span class="brand-mark">S</span>
+        <span class="brand-text">sofyan<span>.dev</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <a href="#about" data-sec="about">Tentang</a>
+        <a href="#skills" data-sec="skills">Skill</a>
+        <a href="#projects" data-sec="projects">Proyek</a>
+        <a href="#certificates" data-sec="certificates">Sertifikat</a>
+        <a href="#journey" data-sec="journey">Perjalanan</a>
+        <a href="#contact" data-sec="contact">Kontak</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="cmdk-trigger" id="cmdkBtn" type="button" aria-label="Buka pencarian cepat">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span>Cari</span><kbd>Ctrl K</kbd>
+        </button>
+        <a class="btn btn-primary btn-sm nav-cta" href="#contact">Hubungi Saya</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav>
+      <a href="#home"><span>00</span>Beranda</a>
+      <a href="#about"><span>01</span>Tentang</a>
+      <a href="#skills"><span>02</span>Skill</a>
+      <a href="#projects"><span>03</span>Proyek</a>
+      <a href="#certificates"><span>04</span>Sertifikat</a>
+      <a href="#journey"><span>05</span>Perjalanan</a>
+      <a href="#github"><span>06</span>GitHub</a>
+      <a href="#contact"><span>07</span>Kontak</a>
+    </nav>
+    <div class="mobile-menu-foot" id="mobileSocials"></div>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="status-pill" id="heroStatus">
+            <span class="dot"></span><span class="status-text">Terbuka untuk magang &amp; kolaborasi</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="hello" id="heroGreeting">Halo, saya <span class="wave">👋</span></span>
+            <span class="name" id="heroName">Sofyan Adiel <span class="grad">Muliansyah</span></span>
+          </h1>
+          <p class="hero-role"><span class="role-prefix">&gt;</span> <span id="typed">Mahasiswa Teknik Informatika</span><span class="caret"></span></p>
+          <p class="hero-tagline" id="heroTagline">Saya membangun aplikasi web yang cepat, rapi, dan bermanfaat.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="#contact" class="btn btn-ghost" id="heroCv">Hubungi Saya</a>
+          </div>
+          <div class="hero-meta" id="heroMeta"></div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-wrap" id="photoWrap">
+            <div class="photo-ring"></div>
+            <div class="photo">
+              <img id="heroPhoto" src="/assets/img/profile.jpg" alt="Foto Sofyan Adiel Muliansyah" width="460" height="460">
+            </div>
+            <div class="float-badge fb-1" id="fb1"></div>
+            <div class="float-badge fb-2" id="fb2"></div>
+            <div class="photo-code" aria-hidden="true">
+              <span class="c-k">const</span> <span class="c-v">dev</span> = <span class="c-s">"sofyan"</span>;
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Gulir ke bawah"><span></span></a>
+    </section>
+
+    <div class="marquee" aria-label="Teknologi yang digunakan">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- TENTANG -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">01</span>Tentang Saya</span>
+          <h2 class="section-title">Sedikit cerita <span class="grad">tentang saya</span></h2>
+        </div>
+        <div class="bento" id="aboutBento"></div>
+      </div>
+    </section>
+
+    <!-- SKILL -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">02</span>Keahlian</span>
+          <h2 class="section-title">Teknologi yang <span class="grad">saya gunakan</span></h2>
+          <p class="section-sub">Kumpulan bahasa, framework, dan tools yang saya pakai untuk membangun proyek, dari antarmuka sampai server.</p>
+        </div>
+        <div class="tabs reveal" id="skillTabs" role="tablist" aria-label="Kategori skill"></div>
+        <div class="skills-grid" id="skillsGrid"></div>
+        <div class="soft-skills reveal" id="softSkills"></div>
+      </div>
+    </section>
+
+    <!-- PROYEK -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">03</span>Proyek</span>
+          <h2 class="section-title">Karya yang pernah <span class="grad">saya bangun</span></h2>
+          <p class="section-sub">Pilih proyek untuk melihat detail fitur, teknologi, dan tautannya.</p>
+        </div>
+        <div class="toolbar reveal">
+          <div class="chips" id="projectFilters" role="tablist" aria-label="Filter proyek"></div>
+          <label class="search-box">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="projectSearch" placeholder="Cari proyek atau teknologi…" aria-label="Cari proyek">
+          </label>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- SERTIFIKAT -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">04</span>Sertifikat</span>
+          <h2 class="section-title">Sertifikat &amp; <span class="grad">pencapaian</span></h2>
+          <p class="section-sub">Pelatihan, kursus, kompetisi, dan pencapaian yang mendukung proses belajar saya.</p>
+        </div>
+        <div class="toolbar reveal" id="certToolbar">
+          <div class="chips" id="certFilters" role="tablist" aria-label="Filter sertifikat"></div>
+        </div>
+        <div class="certs-grid" id="certsGrid"></div>
+      </div>
+    </section>
+
+    <!-- PERJALANAN -->
+    <section id="journey" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">05</span>Perjalanan</span>
+          <h2 class="section-title">Pendidikan &amp; <span class="grad">pengalaman</span></h2>
+        </div>
+        <div class="journey" id="journey-wrap"></div>
+      </div>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="num">06</span>Open Source</span>
+          <h2 class="section-title">Aktivitas di <span class="grad">GitHub</span></h2>
+          <p class="section-sub">Data diambil langsung dari GitHub, jadi selalu mengikuti kode terbaru yang saya kerjakan.</p>
+        </div>
+        <div id="githubWrap" class="gh-wrap"></div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <span class="eyebrow"><span class="num">07</span>Kontak</span>
+            <h2 class="section-title">Mari <span class="grad">bekerja sama</span></h2>
+            <p class="section-sub">Punya ide proyek, tawaran magang, atau sekadar ingin berdiskusi soal teknologi? Kirim pesan, saya akan membalas secepatnya.</p>
+            <div class="contact-list" id="contactList"></div>
+            <div class="socials" id="contactSocials"></div>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <input id="cfName" name="name" type="text" placeholder=" " required autocomplete="name">
+              <label for="cfName">Nama kamu</label>
+            </div>
+            <div class="field">
+              <input id="cfEmail" name="email" type="email" placeholder=" " required autocomplete="email">
+              <label for="cfEmail">Email</label>
+            </div>
+            <div class="field">
+              <textarea id="cfMsg" name="message" rows="5" placeholder=" " required></textarea>
+              <label for="cfMsg">Pesan</label>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit" id="cfSubmit">
+              Kirim Pesan
+              <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </button>
+            <p class="form-note" id="cfNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="brand"><span class="brand-mark">S</span><span class="brand-text">sofyan<span>.dev</span></span></a>
+        <p id="footerTagline">Mahasiswa Teknik Informatika · Universitas Pelita Bangsa</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#certificates">Sertifikat</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="socials" id="footerSocials"></div>
+    </div>
+    <div class="container footer-bottom">
+      <span id="copyright">© 2026 Sofyan Adiel Muliansyah</span>
+      <span id="updatedAt"></span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">
+    <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+  </button>
+
+  <!-- Modal detail -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" tabindex="-1">
+      <div class="modal-close-wrap">
+        <button class="modal-close" type="button" aria-label="Tutup" data-close>
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Command palette -->
+  <div class="cmdk" id="cmdk" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Pencarian cepat">
+    <div class="cmdk-backdrop" data-close></div>
+    <div class="cmdk-panel">
+      <div class="cmdk-input">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="cmdkInput" type="text" placeholder="Cari bagian, proyek, sertifikat…" autocomplete="off" aria-label="Kata kunci">
+        <kbd>Esc</kbd>
+      </div>
+      <ul class="cmdk-list" id="cmdkList" role="listbox"></ul>
+      <div class="cmdk-foot"><span><kbd>↑</kbd><kbd>↓</kbd> pilih</span><span><kbd>Enter</kbd> buka</span></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/assets/js/shared.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
